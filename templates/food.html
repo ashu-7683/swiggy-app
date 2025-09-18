@@ -1,0 +1,185 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Food Products{% endblock %}
+{% block content %}
+<h1 class="mb-3" style="color:red;font-weight:bold;text-align:center;">Food Products</h1>
+<div class="row justify-content-center">
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/pizza.jpeg' %}" alt="Pizza" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Pizza</h5>
+                <p class="card-text" align="center">Delicious cheese pizza</p>
+                <p align="center">Price: $12</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/burger.jpeg' %}" alt="Burger" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Burger</h5>
+                <p class="card-text" align="center">Juicy paneer tikka burger</p>
+                <p align="center">Price: $10</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/biriyani.jpeg' %}" alt="Biriyani" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Biriyani</h5>
+                <p class="card-text" align="center">Spicy chicken dum biriyani</p>
+                <p align="center">Price: $15</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/chicken roll.jpeg' %}" alt="Chicken Roll" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Chicken Roll</h5>
+                <p class="card-text" align="center">Tasty chicken roll</p>
+                <p align="center">Price: $8</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/kabab.jpeg' %}" alt="Kabab" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Kabab</h5>
+                <p class="card-text" align="center">Grilled chicken kabab</p>
+                <p align="center">Price: $9</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/chicken manchurian.jpeg' %}" alt="Chicken Manchurian" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Chicken Manchurian</h5>
+                <p class="card-text" align="center">Spicy chicken manchurian</p>
+                <p align="center">Price: $8</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/chicken pokoda.jpeg' %}" alt="Chicken Pokoda" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Chicken Pokoda</h5>
+                <p class="card-text" align="center">Crispy chicken pokoda</p>
+                <p align="center">Price: $5</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/chicken roll.jpeg' %}" alt="Chicken Roll" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Chicken Roll</h5>
+                <p class="card-text" align="center">Spicy chicken roll</p>
+                <p align="center">Price: $6</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/jalebi.jpeg' %}" alt="Jalebi" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Jalebi</h5>
+                <p class="card-text" align="center">Sweet and crispy jalebi</p>
+                <p align="center">Price: $4</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/somosa.jpeg' %}" alt="Samosa" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Samosa</h5>
+                <p class="card-text" align="center">Spicy potato samosa</p>
+                <p align="center">Price: $5</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/spring roll.jpeg' %}" alt="Spring Roll" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Spring Roll</h5>
+                <p class="card-text" align="center">Crispy vegetable spring roll</p>
+                <p align="center">Price: $6</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/paneer masala.jpeg' %}" alt="Paneer Masala" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Paneer Masala</h5>
+                <p class="card-text" align="center">Paneer masala curry</p>
+                <p align="center">Price: $11</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/pizza.jpeg' %}" alt="Pizza" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Pizza</h5>
+                <p class="card-text" align="center">Delicious cheese pizza</p>
+                <p align="center">Price: $12</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/burger.jpeg' %}" alt="Burger" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Burger</h5>
+                <p class="card-text" align="center">Juicy paneer tikka burger</p>
+                <p align="center">Price: $10</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/biriyani.jpeg' %}" alt="Biriyani" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Biriyani</h5>
+                <p class="card-text" align="center">Spicy chicken dum biriyani</p>
+                <p align="center">Price: $15</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="{% static 'images/sandwich.jpeg' %}" alt="Sandwich" class="card-img-top" style="height:220px;width:100%;object-fit:cover;">
+            <div class="card-body">
+                <h5 class="card-title" align="center">Sandwich</h5>
+                <p class="card-text" align="center">chicken tandoori sandwich</p>
+                <p align="center">Price: $7</p>
+                <a href="#" class="btn btn-primary" align="center">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+{% endblock %}
